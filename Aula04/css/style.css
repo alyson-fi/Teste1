@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    background-image: url('../img/academia2.jpg'); 
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed; 
+
+}
+
+header h1 {
+    color: #f3e51a;
+    text-shadow: 0px 3px 2px black;
+    font-size: 6em;
+    margin: 0;
+    font-family: Pattaya, serif;
+}
+
+header p {
+    color: white;
+    text-shadow: 0px 2px 1px black;
+    margin-top: 0;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+    background-color: #000000;
+    padding: 0;
+    margin: 0;
+    position: sticky;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 16px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+
+ nav a.activado {
+    background-color: #A87808;
+    font-weight: bold;
+}
+
+nav a.login {
+    margin-left: auto;
+}
+
+nav a:hover {
+    background-color: #F5BD3D;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main aside {
+    flex: 25%;
+    padding: 10px;
+    /* border-right: 1px dotted #000;*/
+    /* background-color: #F5BD3D;*/
+}    
+
+main section {
+    flex: 65%;
+    padding: 10px;
+}
+
+main aside figure {
+    background-color: white;
+    border-radius: 4px;
+    
+}
+
+main aside img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+figcaption {
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+main aside p {
+    margin: auto;
+    width: 200px;
+    text-align: justify;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main aside small a {
+    background-color: rgb(86, 255, 114);
+    border: 1px solid rgb(168, 255, 182);
+    border-radius: 4px;
+    padding: 0;
+    width: 150px;
+    text-decoration: none;
+}
+
+main aside small a:hover {
+    background-color: rgb(168, 255, 182);
+}
